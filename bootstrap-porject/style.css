@@ -1,0 +1,233 @@
+@import url('https://fonts.googleapis.com/css2?family=Shadows+Into+Light&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Righteous&display=swap');
+html {
+    scroll-behavior: smooth;
+    transition: .5s;
+}
+
+body {
+    font-family: 'Shadows Into Light', cursive;
+}
+
+
+/* h1,
+h2,
+h3,
+h4,
+h5,
+h6 {} */
+
+
+/* -------------------------------------header start------------------------------------------------ */
+
+header {
+    /* font-family: 'Shadows Into Light', cursive; */
+    background-image: url(./AN.jpg);
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+}
+
+.navbar {
+    /* padding: 5% 20%; */
+    background-color: rgb(0, 0, 0, 0.3);
+}
+
+.navbar-brand img {
+    width: 60px;
+    height: auto;
+}
+
+.nav-link {
+    color: white;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+}
+
+.sticky {
+    padding: 5px 10px;
+}
+
+.nav-link:hover {
+    color: red;
+    transform: scale(1.1);
+    transition: .4s;
+}
+
+.banner-container {
+    height: 100vh;
+}
+
+.icon {
+    font-size: 1.2rem;
+}
+
+.banner-contents h1 {
+    border-top: 2px solid red;
+    border-bottom: 2px solid greenyellow;
+    padding: 10px;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.363);
+}
+
+@media only screen and (max-width: 600px) {
+    .nav-item:hover {
+        background: #3D2C8D;
+        color: white;
+        transition: .3s;
+    }
+}
+
+
+/* -------------------------------------header End------------------------------------------------ */
+
+
+/* ----------------------feature-start ----------------------------*/
+
+#feature {
+    background: #916BBF;
+    padding: 5% 10%;
+}
+
+.feature-col {
+    padding: 5% 10%;
+    border: 1px solid #1C0C5B;
+    transition: .4s;
+    margin: 20px 0;
+}
+
+.feature-col:hover {
+    transform: scale(1.1);
+    box-shadow: 8px 16px 8px rgba(0, 0, 0, 0.267);
+    background: #1C0C5B;
+}
+
+.feature-icon {
+    padding: 15px;
+    color: white;
+    background: #3D2C8D;
+    border-radius: 50%;
+}
+
+
+/* ----------------------feature-End ----------------------------*/
+
+
+/* ----------------------Start About-Me ----------------------------*/
+
+#aobut-me {
+    padding: 0 0 5% 0;
+}
+
+.bio {
+    padding: 5%;
+}
+
+.bio img {
+    width: 80%;
+    display: block;
+    padding: 5px;
+    margin: 0 auto;
+    border-bottom-right-radius: 20px;
+}
+
+.hr-style {
+    border: 5px dotted white;
+    border-bottom: none;
+    width: 50px;
+}
+
+.title {
+    width: 100%;
+    height: 40vh;
+    background-image: url(./AN.jpg);
+    background-position: center;
+    background-attachment: fixed;
+    background-size: cover;
+    font-weight: bolder;
+}
+
+.about-title {
+    padding-top: 100px;
+    color: white;
+}
+
+.name {
+    font-family: 'Righteous', cursive;
+    color: #1C0C5B;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.185);
+}
+
+.pera {
+    font-family: 'Dancing Script', cursive;
+}
+
+
+/* ----------------------End About-Me----------------------------*/
+
+
+/* ----------------------start service-section----------------------------*/
+
+.service-col {
+    border-radius: 10px;
+    padding: 10% 1%;
+    border: 1px solid #FF5C58;
+    background: #FFEDD3;
+    margin: 10px 0;
+    transition: .4s;
+}
+
+.service-col:hover {
+    box-shadow: 0 8px 32px 0 rgba(0, 0, 0, 0.39);
+    transform: scale(1.1);
+    background: #FFEDD3;
+}
+
+.sr-icon {
+    padding: 20px;
+    background-color: #FF5C58;
+    color: white;
+    border-radius: 10px;
+}
+
+.sr-head {
+    color: #4B3869;
+    text-shadow: 4px 4px 4px rgba(0, 0, 0, 0.274);
+}
+
+.carousel-item {
+    /* padding: 5% 15%; */
+    text-align: center;
+}
+
+.carousel-item img {
+    display: block;
+    width: 300px;
+    height: 300px;
+    margin: 0 auto;
+}
+
+.team {
+    background: #1C0C5B;
+}
+
+
+/* ----------------------End service-section----------------------------*/
+
+
+/* ----------------------Start contact-section----------------------------*/
+
+.contact-section {
+    background: #1c0c5b7e;
+    padding: 0 200px;
+}
+
+@media only screen and (max-width: 600px) {
+    .contact-section {
+        background: #1c0c5b7e;
+        padding: 0 10px;
+    }
+}
+
+
+/* ----------------------End contact-section----------------------------*/
